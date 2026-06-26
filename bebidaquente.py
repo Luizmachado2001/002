@@ -8,7 +8,7 @@ class BebidaQuente(ABC):
         print(3*"-", " Iniciando o Preparo ", 3 * "-")
         print("1. Fervendo água a 100 graus Celsius.")
         self.misturar()
-        self.ferver_agua()
+        self.servir()
         print(3*"-", " Bebida Pronta", 3 * "-")
 
     def ferver_agua(self):
