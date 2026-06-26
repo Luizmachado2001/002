@@ -3,12 +3,18 @@ from bebidas.cafe import Cafe
 from bebidas.cha import Cha
 from bebidas.leite import Leite
 
-from rich import inspect, print
+from rich import print,console
 
 def main():
-    bebida = Cafe()
-    inspect(bebida, methods=True)
-    bebida.preparar()
+
+    bebida_cafe = Cafe()
+    bebida_cafe.preparar()
+
+    bebida_leite = Leite()
+    bebida_leite.preparar()
+
+    bebida_cha = Cha()
+    print.console(bebida_cha)
 
 
 if __name__ == "__main__":

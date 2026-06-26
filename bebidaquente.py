@@ -10,6 +10,7 @@ class BebidaQuente(ABC):
         self.misturar()
         self.servir()
         print(3*"-", " Bebida Pronta", 3 * "-")
+        print("")
 
     def ferver_agua(self):
         pass

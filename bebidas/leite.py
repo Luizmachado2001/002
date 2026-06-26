@@ -5,8 +5,7 @@ class Leite(BebidaQuente):
         pass
 
     def servir(self):
-        print("2. Passando vapor pressurizado pelo bico do leite.")
-        self.preparar()
-        
-    def misturar(self):
         print("3. Servindo na caneca grande, já com café.")
+
+    def misturar(self):
+        print("2. Passando vapor pressurizado pelo bico do leite.")

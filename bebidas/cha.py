@@ -1,7 +1,6 @@
 from bebidaquente import BebidaQuente
 
 class Cha(BebidaQuente):
-
     def __int__(self):
         pass
 
