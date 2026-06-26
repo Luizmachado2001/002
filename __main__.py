@@ -14,7 +14,7 @@ def main():
     bebida_leite.preparar()
 
     bebida_cha = Cha()
-    print.console(bebida_cha)
+    bebida_cha.preparar()
 
 
 if __name__ == "__main__":
