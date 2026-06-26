@@ -4,7 +4,7 @@ class Cha(BebidaQuente):
     def __int__(self):
         pass
 
-    def mistura(self):
+    def misturar(self):
         print("2. Mergulhando o sachê de ervas na água.")
 
     def servir(self):
